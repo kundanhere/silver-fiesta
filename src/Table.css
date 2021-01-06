@@ -1,0 +1,20 @@
+.table {
+  margin: 1rem 0;
+  max-height: 330px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.table tr {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3px;
+}
+.table tr:nth-of-type(odd) {
+  background: #ececec;
+}
+.table tr td {
+  padding: 0.42rem;
+}
+.table tr td:last-child {
+  text-align: right;
+}
